@@ -1,0 +1,90 @@
+
+.backtudo{
+    background-image: url(Imagem1.png);
+}
+
+.titulo-p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 60px;
+    font-weight: 900;
+    font-family: 'Rubik', sans-serif;
+    background-image: linear-gradient(to bottom, rgb(33, 8, 190), rgb(9, 50, 198), rgb(68, 150, 243));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hobbies{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.hobzin{
+    width: 100%;
+    height: 41vh;
+    border-radius: 100%;
+    margin-bottom: 20px;
+}
+
+
+
+.subs-t{
+    font-family: 'Rubik', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgba(248, 248, 248, 0.99);
+}
+
+.projetin{
+    width: 50%;
+    height: 41vh;
+    border-radius: 100%;
+    margin-bottom: 20px;
+    transition: 1s;
+}
+
+.projetin:hover{
+    transition: 1s;
+    transform: scale(1.1);
+}
+
+footer{
+    background-color: black;
+    width: 100%;
+    height: 300px; 
+}
+
+#redessociais{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.redes{
+    display: flex;
+    justify-content: center;  
+}
+
+.links{
+    position: relative;
+    margin: 50px;
+    top: 100px;
+
+}
+
+.final{
+    position: relative;
+    color: white;
+    text-align: center;
+    top: 150px;
+}
+
+.finalfinal{
+    color: white;
+    text-decoration: none;
+}
+
